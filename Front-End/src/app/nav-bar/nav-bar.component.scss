@@ -1,0 +1,42 @@
+.app-nav-bar 
+{
+    width: calc(100% - 40px);
+    height: calc(100% - 20px - 2px);
+
+    display: flex;
+    margin: 20px;
+
+    background-color: #f6f7f8;
+
+    .nav-bar-item
+    {
+        flex: 1;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        color: #a1a1a1;
+        border-bottom: 2px solid #a1a1a1;
+
+        .nav-bar-item-text
+        {
+            font-size: 16px;
+            font-weight: bold; 
+        }
+
+        &.selected
+        {
+            color: #ed1ced;
+            border-bottom: 2px solid #ed1ced;
+        }
+
+        @media only screen and (min-width: 768px)
+        {
+            .nav-bar-item-text
+            {
+                font-size: 26px;
+            }
+        }
+    }
+}

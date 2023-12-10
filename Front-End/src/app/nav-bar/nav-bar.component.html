@@ -1,0 +1,11 @@
+<div class = "app-nav-bar">
+
+    <div class = "nav-bar-item" routerLink = "/" (click) = "selectItem(1)" [class.selected] = "selectedItem === 1">
+        <span class = "nav-bar-item-text">Dashboard</span>
+    </div>
+
+    <div class = "nav-bar-item" routerLink = "/users" (click) = "selectItem(2)" [class.selected] = "selectedItem === 2">
+        <span class = "nav-bar-item-text">Usuários</span>
+    </div>    
+    
+</div>

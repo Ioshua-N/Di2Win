@@ -1,0 +1,94 @@
+.cards
+{
+    width: calc(100% - 40px);
+    height: calc(100%);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+
+    gap: 20px;
+    margin: 20px;
+
+    .cards-block
+    {
+        display: flex;
+        flex: 1;
+
+        min-width: calc(40% - 30px);
+
+        box-sizing: border-box;
+
+        background-color: #fff;
+
+        border-radius: 10px;
+        box-shadow: 0px 0px 19px 10px #d9d9d9;
+        align-items: center;
+
+        padding: 20px;
+
+        &.sixty
+        {
+            flex: 6;
+
+            @media only screen and (min-width: 768px)
+            {
+                flex: 1;
+            }
+        }
+
+        &.fourty
+        {
+            flex: 4;
+
+            @media only screen and (min-width: 768px)
+            {
+                flex: 1;
+            }
+        }
+
+        .cards-block-icon
+        {
+            flex: 3;
+            display: flex;
+            color: #ed1ced;
+
+            font-size: 28px;
+            justify-content: space-around;
+        }
+
+        .cards-block-text
+        {
+            flex: 7;
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: space-around;
+
+            .cards-block-text-tag
+            {
+                font-size: 14px;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            .cards-block-text-value
+            {
+                font-size: 26px;
+                font-weight: bold;
+            }
+        }
+
+        @media only screen and (min-width: 768px)
+        {
+            min-width: 0px;
+        }
+    }
+
+    @media only screen and (min-width: 768px)
+    {
+        flex-wrap: nowrap;
+    }
+}
