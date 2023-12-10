@@ -1,4 +1,4 @@
-# Di2Win Dashboard
+  # Di2Win Dashboard
 
 <h3 align = "center">Nossa Equipe</h3>
 <p align = "center">
@@ -22,7 +22,7 @@ Para utilizar o aplicativo, siga as instruções abaixo:
 1. Baixe o projeto.
 2. Certifique-se de ter o Node.js e o Nodemon instalados. Assim como o PostgresSQL com a base de dados em funcionamento na máquina.
 
-<i>Na pasta materiais do reposiório há um arquivo de backup de uma base de dados modelo.<i>
+__*Na pasta materiais do reposiório há um arquivo de backup de uma base de dados modelo.*__
    
 ### Back-End
 
