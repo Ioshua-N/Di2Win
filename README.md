@@ -19,7 +19,7 @@
 
 Para utilizar o aplicativo, siga as instruções abaixo:
 
-1. Baixe o projeito.
+1. Baixe o projeto.
 2. Certifique-se de ter o Node.js e o Nodemon instalados. Assim como a base de dados em funcionamento na máquina.
    
 ### Back-End
@@ -58,6 +58,7 @@ Aqui estão alguns passos que você pode seguir:
 3. Pesquise sobre cada dependência, explorando sua documentação oficial.
 
 > Veja o arquivo do Back-End aqui: [package.json](https://github.com/Ioshua-N/Di2Win/blob/main/Back-End/package.json)
+
 > Veja o arquivo do Front-End aqui: [package.json](https://github.com/Ioshua-N/LocalFit/blob/main/Front-End/package.json)
 
 Isso permitirá que você entenda melhor como cada parte do projeto funciona e aproveite ao máximo as bibliotecas e ferramentas utilizadas.
