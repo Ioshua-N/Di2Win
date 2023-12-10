@@ -20,7 +20,9 @@
 Para utilizar o aplicativo, siga as instruções abaixo:
 
 1. Baixe o projeto.
-2. Certifique-se de ter o Node.js e o Nodemon instalados. Assim como a base de dados em funcionamento na máquina.
+2. Certifique-se de ter o Node.js e o Nodemon instalados. Assim como o PostgresSQL com a base de dados em funcionamento na máquina.
+
+<i>Na pasta materiais do reposiório há uma base de dados modelo.<i>
    
 ### Back-End
 
