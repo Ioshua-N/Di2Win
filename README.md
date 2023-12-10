@@ -13,7 +13,7 @@
 
 ## Sobre
 
-<p align = "justify">O app <b>Di2Win Dashboardt</b> é um projeto que visa facilitar a visualização das informações disponíveis no banco de dados da <b>Di2Win</b>. Mostrando informações importante sobre a base de dados, por meio de gráficos bem organizados.</p>
+<p align = "justify">O app <b>Di2Win Dashboard</b> é um projeto que visa facilitar a visualização das informações disponíveis no banco de dados da <b>Di2Win</b>. Mostrando informações importante sobre a base de dados, por meio de gráficos bem organizados.</p>
 
 ## Instalação
 
