@@ -120,7 +120,6 @@ app.get('/pgPerDoc', async (req, res) =>
     {
         const result = await pool.query('select round((sum(pages_process) / count(id))::numeric, 2) from extracts');
         res.json(result);
-        console.log(result.rows)
     }
     catch(error)
     {
